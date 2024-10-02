@@ -31,7 +31,7 @@ const App = () => {
         heroData={heroData[heroCount]}
         heroCount={heroCount}
         setHeroCount={setHeroCount}
-        PlayStatus={PlayStatus}
+        playStatus={playStatus}
       />
     </div>
   );
