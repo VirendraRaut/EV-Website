@@ -10,7 +10,13 @@ const Hero = ({
   setHeroCount,
   PlayStatus,
 }) => {
-  return <div className="hero"></div>;
+  return (
+  <div className="hero">
+    <div className="hero-text">
+      
+    </div>
+  </div>
+);
 };
 
 export default Hero;
