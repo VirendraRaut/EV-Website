@@ -11,17 +11,24 @@ const Hero = ({
   PlayStatus,
 }) => {
   return (
-  <div className="hero">
-    <div className="hero-text">
-      <p>{heroData.text1}</p>
-      <p>{heroData.text2}</p>
+    <div className="hero">
+      <div className="hero-text">
+        <p>{heroData.text1}</p>
+        <p>{heroData.text2}</p>
+      </div>
+      <div className="hero-explore">
+        <p>Explore the features</p>
+        <img src={arrow_btn} alt="" />
+      </div>
+      <div className="hero-dot-play">
+        <div className="hero-dots">
+          <li className={heroCount === 0 ? "hero-dot orange" : "hero-dot"}></li>
+          <li className={heroCount === 0 ? "hero-dot orange" : "hero-dot"}></li>
+          <li className={heroCount === 0 ? "hero-dot orange" : "hero-dot"}></li>
+        </div>
+      </div>
     </div>
-    <div className="hero-explore">
-      <p>Explore the features</p>
-      <img src={arrow_btn} alt="" />
-    </div>
-  </div>
-);
+  );
 };
 
 export default Hero;
