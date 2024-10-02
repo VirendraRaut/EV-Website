@@ -25,6 +25,13 @@ const App = () => {
     <div>
       <Background playStatus={playStatus} heroCount={heroCount} />
       <Navbar />
+      <Hero
+        setPlayStatus={setPlayStatus}
+        heroData={heroData}
+        heroCount={heroCount}
+        setHeroCount={setHeroCount}
+        PlayStatus={PlayStatus}
+      />
     </div>
   );
 };
