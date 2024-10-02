@@ -22,18 +22,20 @@ const Hero = ({
       </div>
       <div className="hero-dot-play">
         <div className="hero-dots">
-          <li
-            onClick={() => setHeroCount(0)}
-            className={heroCount === 0 ? "hero-dot orange" : "hero-dot"}
-          ></li>
-          <li
-            onClick={() => setHeroCount(1)}
-            className={heroCount === 1 ? "hero-dot orange" : "hero-dot"}
-          ></li>
-          <li
-            onClick={() => setHeroCount(2)}
-            className={heroCount === 2 ? "hero-dot orange" : "hero-dot"}
-          ></li>
+          <ul>
+            <li
+              onClick={() => setHeroCount(0)}
+              className={heroCount === 0 ? "hero-dot orange" : "hero-dot"}
+            ></li>
+            <li
+              onClick={() => setHeroCount(1)}
+              className={heroCount === 1 ? "hero-dot orange" : "hero-dot"}
+            ></li>
+            <li
+              onClick={() => setHeroCount(2)}
+              className={heroCount === 2 ? "hero-dot orange" : "hero-dot"}
+            ></li>
+          </ul>
         </div>
       </div>
     </div>
