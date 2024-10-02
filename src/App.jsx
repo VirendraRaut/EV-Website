@@ -19,7 +19,7 @@ const App = () => {
     },
   ];
 
-  const [heroCount, setHeroCount] = useState(1);
+  const [heroCount, setHeroCount] = useState(0);
   const [playStatus, setPlayStatus] = useState(false);
 
   return (
