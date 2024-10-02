@@ -13,7 +13,12 @@ const Hero = ({
   return (
   <div className="hero">
     <div className="hero-text">
-      
+      <p>{heroData.text1}</p>
+      <p>{heroData.text2}</p>
+    </div>
+    <div className="hero-explore">
+      <p>Explore the features</p>
+      <img src={arrow_btn} alt="" />
     </div>
   </div>
 );
