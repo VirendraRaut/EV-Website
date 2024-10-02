@@ -14,7 +14,7 @@ const App = () => {
       text2: "your passions",
     },
     {
-      text1: "Give in to",
+      text1: "Give into",
       text2: "your passions",
     },
   ];
