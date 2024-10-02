@@ -1,6 +1,6 @@
 .hero {
   margin: 0px 100px;
-  margin-top: 250px;
+  margin-top: 150px;
 }
 
 .hero-text {
@@ -48,4 +48,19 @@
   background-color: #fff;
   border-radius: 7.5px;
   cursor: pointer;
+}
+
+.hero-dot.orange {
+  background: orangered;
+}
+
+.hero-play {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.hero-play p{
+    color: #fff;
+    font-size: 20px;
 }
