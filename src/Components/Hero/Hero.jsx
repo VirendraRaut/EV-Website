@@ -8,7 +8,7 @@ const Hero = ({
   setPlayStatus,
   heroCount,
   setHeroCount,
-  PlayStatus,
+  playStatus,
 }) => {
   return (
     <div className="hero">
@@ -37,7 +37,11 @@ const Hero = ({
             ></li>
           </ul>
           <div className="hero-play">
-            <img onClick={()=>setPlayStatus(!PlayStatus)} src={PlayStatus ? pause_icon : play_icon} alt="" />
+            <img
+              onClick={() => setPlayStatus(!playStatus)}
+              src={playStatus ? pause_icon : play_icon}
+              alt=""
+            />
             <p>See the video</p>
           </div>
         </div>
